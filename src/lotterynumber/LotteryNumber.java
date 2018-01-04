@@ -39,10 +39,8 @@ public class LotteryNumber {
     }
     public static int lottery(int min , int max )
     {
-     String number = "0123456789";
      int lucky;
      Random ran = new Random();
-    
      lucky = ran.nextInt(max+1-min)+min;
      return lucky;
     }
