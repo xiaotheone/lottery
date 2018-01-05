@@ -44,4 +44,9 @@ public class LotteryNumber {
      lucky = ran.nextInt(max+1-min)+min;
      return lucky;
     }
+    public static void git()
+    {
+        System.out.println("First git commit");
+    }
+
 }
