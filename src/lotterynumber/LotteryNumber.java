@@ -48,9 +48,6 @@ public class LotteryNumber {
     {
         System.out.println("First git commit");
     }
-    public static void mac_git()
-{
- System.out.println("First git from mac" );
-}
+    
 
 }
